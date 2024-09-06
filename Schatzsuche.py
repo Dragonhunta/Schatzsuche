@@ -14,14 +14,6 @@ for i in feld:
 reiheSchatz = zahl - 1
 spalteSchatz = 0
 
-'''
-while reiheSchatz == zahl - 1 and spalteSchatz == 0:
-    reiheSchatz = randint(0, len(feld) - 1)
-    print(reiheSchatz)
-    spalteSchatz = randint(0, len(feld[0]) - 1)
-    print(spalteSchatz)
-    feld[reiheSchatz][spalteSchatz] = "X" '''
-
 reiheSchatz = randint(0, len(feld) - 1)
 print(reiheSchatz)
 spalteSchatz = randint(0, len(feld[0]) - 1)
